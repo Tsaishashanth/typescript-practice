@@ -25,10 +25,11 @@ type User = {
     name: string,
     email: string,
     isactive: boolean,
+    done : string,
 }
 
 function modifyUser(data: User):User {   //here like above we cant write return User type in {} bcoz its type
-    return {name:"abc", email:"test@123", isactive:true}
+    return {name:"abc", email:"test@123", isactive:true, done: "yes"}
 }
 
 
